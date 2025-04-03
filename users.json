@@ -1,0 +1,38 @@
+{
+    "admin": {
+        "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+        "admin": true,
+        "blocked": false,
+        "password_rules": {
+            "min_length": 8,
+            "require_upper": true,
+            "require_lower": true,
+            "require_digit": true,
+            "require_special": true
+        }
+    },
+    "1": {
+        "password": "",
+        "admin": false,
+        "blocked": false,
+        "password_rules": {
+            "min_length": 4,
+            "require_upper": true,
+            "require_lower": false,
+            "require_digit": false,
+            "require_special": false
+        }
+    },
+    "2": {
+        "password": "",
+        "admin": false,
+        "blocked": false,
+        "password_rules": {
+            "min_length": 0,
+            "require_upper": false,
+            "require_lower": false,
+            "require_digit": false,
+            "require_special": false
+        }
+    }
+}
